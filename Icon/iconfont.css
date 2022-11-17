@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3723058 */
+  src: url('iconfont.woff2?t=1666426380204') format('woff2'),
+       url('iconfont.woff?t=1666426380204') format('woff'),
+       url('iconfont.ttf?t=1666426380204') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-roundadd:before {
+  content: "\e6d9";
+}
+
+.icon-help:before {
+  content: "\e6a3";
+}
+
+.icon-cut:before {
+  content: "\e74b";
+}
+
+.icon-start:before {
+  content: "\ea40";
+}
+
+.icon-arrows_rotate:before {
+  content: "\e6aa";
+}
+
+.icon-toggle-on:before {
+  content: "\e741";
+}
+
+.icon-ico_reset:before {
+  content: "\e666";
+}
+
+.icon-home:before {
+  content: "\e7c6";
+}
+
+.icon-click:before {
+  content: "\e6f7";
+}
+
+.icon-bulb:before {
+  content: "\e613";
+}
+
+.icon-stop:before {
+  content: "\e91d";
+}
+
+.icon-chart:before {
+  content: "\e631";
+}
+
+.icon-pause:before {
+  content: "\e653";
+}
+
+.icon-toggle-off:before {
+  content: "\e8b2";
+}
+
+.icon-user:before {
+  content: "\e682";
+}
+
+.icon-setting-filling:before {
+  content: "\e68b";
+}
+
+.icon-ic_parameter:before {
+  content: "\e619";
+}
+

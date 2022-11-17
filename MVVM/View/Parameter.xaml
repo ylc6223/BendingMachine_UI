@@ -1,0 +1,597 @@
+﻿<UserControl x:Class="BendingMachine_UI.MVVM.View.Parameter"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BendingMachine_UI.MVVM.View"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#FFF">
+      <materialDesign:Card>
+        <TabControl
+          Margin="20,0"
+          HorizontalContentAlignment="Left">
+          <!-- 系统参数 -->
+          <TabItem
+            Header="系统参数">
+      <Border BorderBrush="Black" BorderThickness="0">
+         <Grid Margin="20,20,20,40">
+           <Grid.ColumnDefinitions>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+           </Grid.ColumnDefinitions>
+           <Grid.RowDefinitions>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+           </Grid.RowDefinitions>
+             <Border Grid.Column="0" Grid.Row="0" BorderBrush="Black" BorderThickness="1,1,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="1" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="2" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="3" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="4" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="5" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="6" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="7" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="8" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="9" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="10" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="11" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="12" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             
+                            
+              <Border Grid.Column="1" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              
+                            
+              <Border Grid.Column="2" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              
+                            
+              <Border Grid.Column="3" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+                <!--第一列-->
+              <TextBlock Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">机床轴数</TextBlock>
+              <TextBlock Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">系统最大F值mm/min</TextBlock>
+              <TextBlock Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">送料速度mm/min</TextBlock>
+              <TextBlock Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">折弯速度°/min</TextBlock>
+              <TextBlock Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">加速度限制角度</TextBlock>
+              <TextBlock Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">拐弯最小速度</TextBlock>
+              <TextBlock Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">平滑因子</TextBlock>
+              <TextBlock Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">送料距离mm</TextBlock>
+              <TextBlock Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">松夹头延时ms</TextBlock>
+              <TextBlock Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">折夹片延时ms</TextBlock>
+              <TextBlock Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">折弯后延时</TextBlock>
+              <TextBlock Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">折弯R1位置mm</TextBlock>
+              <TextBlock Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">折弯R2位置mm</TextBlock>
+                <!--第二列-->
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+               <TextBlock Padding="5" Grid.Column="1" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <!-- 第三列 -->
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">刀具R数</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">系统加速度mm/s2</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">旋转速度°/min</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">折弯加速度mm/s2</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">加速度角度平滑</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">平滑过渡距离</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">最小圆弧半径</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">料盘默认长度mm</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">紧夹头延时ms</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">紧夹片延时ms</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">剪刀角度°</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">剪刀位置mm</TextBlock>
+                <TextBlock Padding="5" Grid.Column="2" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">折弯R4位置mm</TextBlock>
+                <!-- 第四列 -->
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+                <TextBlock Padding="5" Grid.Column="3" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">测试内容</TextBlock>
+         </Grid>
+       </Border>
+          </TabItem>
+          <!-- 轴参数 -->
+          <TabItem
+            Header="轴参数">
+       <Border BorderBrush="Black" BorderThickness="0">
+         <Grid Margin="20,20,20,40">
+           <Grid.ColumnDefinitions>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+           </Grid.ColumnDefinitions>
+           <Grid.RowDefinitions>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+           </Grid.RowDefinitions>
+             <Border Grid.Column="0" Grid.Row="0" BorderBrush="Black" BorderThickness="1,1,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="1" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="2" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="3" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="4" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="5" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="6" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="7" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="8" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="9" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="10" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="11" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="12" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="13" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="14" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="15" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="16" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             
+                            
+              <Border Grid.Column="1" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="13" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="14" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="15" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="16" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              
+                            
+              <Border Grid.Column="2" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="13" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="14" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="15" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="16" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              
+                            
+              <Border Grid.Column="3" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="13" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="14" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="15" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="16" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+           
+              <Border Grid.Column="4" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="13" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="14" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="15" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="16" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+                           <!--第一列-->
+              <TextBlock Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">轴参数</TextBlock>
+              <TextBlock Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">脉冲方式</TextBlock>
+              <TextBlock Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">脉冲方向</TextBlock>
+              <TextBlock Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">脉冲当量</TextBlock>
+              <TextBlock Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">编码器类型</TextBlock>
+              <TextBlock Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">编码器方向</TextBlock>
+              <TextBlock Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">回零类型</TextBlock>
+              <TextBlock Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">Z信号边沿</TextBlock>
+              <TextBlock Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">回零方向</TextBlock>
+              <TextBlock Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">回零边沿</TextBlock>
+              <TextBlock Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">回零速度</TextBlock>
+              <TextBlock Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">回零优先级</TextBlock>
+              <TextBlock Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">回零偏置</TextBlock>
+              <TextBlock Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">伺服使能</TextBlock>
+              <TextBlock Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">伺服报警极性</TextBlock>
+              <TextBlock Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">最大行程</TextBlock>
+                    <!-- 第二列 -->
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">X轴</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">脉冲+方向</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">正向</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">0.00025</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">绝对值</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">反向</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">HOME</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">下降沿</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">正向</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">下降沿</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">500</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">0</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">0</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">开启</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">高电平</TextBlock>
+              <TextBlock Grid.Column="1" Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">300mm</TextBlock>
+                           <!-- 第三列 -->
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">Y轴</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">脉冲+方向</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">正向</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">0.00018</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">绝对值</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">反向</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">HOME</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">下降沿</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">正向</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">下降沿</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">500</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">1</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">0</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">开启</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">高电平</TextBlock>
+              <TextBlock Grid.Column="2" Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">360°</TextBlock>
+                           <!-- 第四列 -->
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">Z轴</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">脉冲+方向</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">正向</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">0.00025</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">绝对值</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">反向</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">HOME</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">下降沿</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">正向</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">下降沿</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">500</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">2</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">0</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">开启</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">高电平</TextBlock>
+              <TextBlock Grid.Column="3" Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">50mm</TextBlock>
+                           <!-- 第五列 -->
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">A轴</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">脉冲+方向</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">正向</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">0.00018</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">绝对值</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">反向</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">HOME</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">下降沿</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">正向</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">下降沿</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">500</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">3</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">0</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">开启</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">高电平</TextBlock>
+              <TextBlock Grid.Column="4" Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">270°</TextBlock>            
+         </Grid>
+       </Border>
+          </TabItem>
+          <TabItem Header="IO配置">
+                  <Border BorderBrush="Black" BorderThickness="0">
+         <Grid Margin="20,20,20,40">
+           <Grid.ColumnDefinitions>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+             <ColumnDefinition></ColumnDefinition>
+           </Grid.ColumnDefinitions>
+           <Grid.RowDefinitions>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+               <RowDefinition></RowDefinition>
+           </Grid.RowDefinitions>
+             <Border Grid.Column="0" Grid.Row="0" BorderBrush="Black" BorderThickness="1,1,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="1" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="2" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="3" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="4" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="5" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="6" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="7" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="8" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="9" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="10" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="11" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="12" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="13" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="14" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="15" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             <Border Grid.Column="0" Grid.Row="16" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+           <Border Grid.Column="0" Grid.Row="17" BorderBrush="Black" BorderThickness="1,0,1,1"></Border>
+             
+                            
+              <Border Grid.Column="1" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="13" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="14" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="15" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="16" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="1" Grid.Row="17" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              
+                            
+              <Border Grid.Column="2" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="13" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="14" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="15" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="16" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="2" Grid.Row="17" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              
+                            
+              <Border Grid.Column="3" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="13" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="14" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="15" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="16" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="3" Grid.Row="17" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+           
+              <Border Grid.Column="4" Grid.Row="0" BorderBrush="Black" BorderThickness="0,1,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="1" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="2" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="3" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="4" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="5" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="6" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="7" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="8" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="9" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="10" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="11" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="12" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="13" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="14" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="15" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="16" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+              <Border Grid.Column="4" Grid.Row="17" BorderBrush="Black" BorderThickness="0,0,1,1"></Border>
+           <!--第一列-->
+           <TextBlock Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">输入</TextBlock>
+           <TextBlock Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">X00-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">X01-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">X02-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">X03-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">X04-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">X05-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">X06-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">X07-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">X08-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">X09-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">X10-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">X11-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">X12-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">X13-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">X14-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="16" VerticalAlignment="Center" HorizontalAlignment="Left">X15-</TextBlock>
+           <TextBlock Padding="5" Grid.Row="17" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+           <!-- 第二列 -->
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">使能</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="16" VerticalAlignment="Center" HorizontalAlignment="Left">是</TextBlock>
+           <TextBlock Grid.Column="1" Padding="5" Grid.Row="17" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+           <!-- 第三列 -->
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">有效电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="16" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="2" Padding="5" Grid.Row="17" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+           <!-- 第四列 -->
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">输出</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">Y00-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">Y01-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">Y02-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">Y03-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">Y04-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">Y05-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">Y06-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">Y07-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">Y08-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">Y09-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">Y10-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">Y11-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">Y12-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">Y13-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">Y14-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="16" VerticalAlignment="Center" HorizontalAlignment="Left">Y15-</TextBlock>
+           <TextBlock Grid.Column="3" Padding="5" Grid.Row="17" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+           <!-- 第五列 -->
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left">有效电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="16" VerticalAlignment="Center" HorizontalAlignment="Left">低电平</TextBlock>
+           <TextBlock Grid.Column="4" Padding="5" Grid.Row="17" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+         </Grid>
+       </Border>
+          </TabItem>
+        </TabControl>
+      </materialDesign:Card>
+    </Grid>
+</UserControl>
