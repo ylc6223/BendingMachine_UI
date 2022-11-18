@@ -1,8 +1,6 @@
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\BendingMachine_UI.csproj.AssemblyReference.cache
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\BendingMachine_UI.csproj.SuggestedBindingRedirects.cache
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\Theme\MenuButtonTheme.baml
-D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\BackUp.g.cs
-D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\BackUpOne.g.cs
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\MainWindow.g.cs
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\MVVM\View\Count.g.cs
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\MVVM\View\Debug.g.cs
@@ -26,8 +24,6 @@ D:\source-code\c-sharp\BendingMachine-UI\bin\Debug\MaterialDesignThemes.Wpf.pdb
 D:\source-code\c-sharp\BendingMachine-UI\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\Theme\DataItemTheme.baml
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\App.baml
-D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\BackUp.baml
-D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\BackUpOne.baml
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\MainWindow.baml
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\MVVM\View\Count.baml
 D:\source-code\c-sharp\BendingMachine-UI\obj\Debug\MVVM\View\Debug.baml

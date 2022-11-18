@@ -15,7 +15,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon/iconfont.js")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/background.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/background1.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/toggleright1.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/toggle-right.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/toggle-right.svg")]
